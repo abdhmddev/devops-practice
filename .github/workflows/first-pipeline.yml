@@ -8,3 +8,6 @@ jobs:
     steps:
       - name: Print a message
         run: echo "Hello from GitHub Actions!"
+
+      - name: Show current date
+        run: date
